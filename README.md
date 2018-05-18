@@ -5,13 +5,13 @@ Change the hello world message
 
 ### Test Visual
 
-'''mermaid
+```mermaid
 
 sequenceDiagram
 
-    Participant A User A
-    Participant B User B
+    Participant A as User A
+    Participant B as User B
 
     A ->> B : Hello B
     B ->> A : Hello A
-'''
+```
